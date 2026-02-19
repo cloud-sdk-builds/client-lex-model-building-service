@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lex-model-building-service`](https://www.npmjs.com/package/@aws-sdk/client-lex-model-building-service/v/3.908.0).
+[`@aws-sdk/client-lex-model-building-service`](https://www.npmjs.com/package/@aws-sdk/client-lex-model-building-service/v/3.910.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.908.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.910.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-h1u/iUI4izJZq9VJKXEl79aL8MzZfvgCH+9FcVCODMn4PBkfEoMYgz/eZrZW2NeJ
+sha384-O0JiQFvGvIa0XADevHh00q6rcshIVs8bH1rg+AmUGvZrXOP2hd89nc8Z6rkQ4TzN
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lex-model-building-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.908.0/index.min.mjs"
+            "@aws-sdk/client-lex-model-building-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.910.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.908.0/index.min.mjs": "sha384-h1u/iUI4izJZq9VJKXEl79aL8MzZfvgCH+9FcVCODMn4PBkfEoMYgz/eZrZW2NeJ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.910.0/index.min.mjs": "sha384-O0JiQFvGvIa0XADevHh00q6rcshIVs8bH1rg+AmUGvZrXOP2hd89nc8Z6rkQ4TzN"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lex-model-building-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.908.0/index.min.mjs"
+                        "@aws-sdk/client-lex-model-building-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.910.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.908.0/index.min.mjs": "sha384-h1u/iUI4izJZq9VJKXEl79aL8MzZfvgCH+9FcVCODMn4PBkfEoMYgz/eZrZW2NeJ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-model-building-service@3.910.0/index.min.mjs": "sha384-O0JiQFvGvIa0XADevHh00q6rcshIVs8bH1rg+AmUGvZrXOP2hd89nc8Z6rkQ4TzN"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.908.0`)
+* Always pin to a specific version (`@3.910.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lex-model-building-service/blob/refs/tags/3.908.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lex-model-building-service/blob/refs/tags/3.910.0/LICENSE
 ```
 
 ---
